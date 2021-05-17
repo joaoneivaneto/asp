@@ -1,4 +1,5 @@
 ﻿using BethenyPieShop2.Models;
+using BethenyPieShop2.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,11 @@ namespace BethenyPieShop2.Controllers
 
         public ViewResult List()
         {
-            return View(_pieRepository.AllPies);
-            
+            PiesListViewModel piesListViewModel = new PiesListViewModel();
+            piesListViewModel.Pies = _pieRepository.AllPies;
+            piesListViewModel.CurrentCategory = "cheese cakes";
+            return View(piesListViewModel);
+
+        }
     }
 }
