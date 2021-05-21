@@ -18,13 +18,20 @@ namespace BethenyPieShop2.Controllers
             _categoryRepository = categoryRepository;
         }
 
-        public ViewResult List()
+        public IActionResult List()
         {
             PiesListViewModel piesListViewModel = new PiesListViewModel();
             piesListViewModel.Pies = _pieRepository.AllPies;
             piesListViewModel.CurrentCategory = "cheese cakes";
             return View(piesListViewModel);
 
+        }
+        public IActionResult Details(int id)
+        {
+            var pie = _pieRepository.GetPieById(id);
+            if (pie == null)
+                return NotFound();
+            return View(pie);
         }
     }
 }

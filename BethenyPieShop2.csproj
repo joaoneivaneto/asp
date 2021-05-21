@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\HomeController.cs" />
     <Compile Remove="Views\Pie\Index.cshtml.cs" />
   </ItemGroup>
 
@@ -25,10 +24,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Migrations\20210514170518_InitialMigration.cs" />
-    <Compile Include="Migrations\20210514170518_InitialMigration.Designer.cs" />
-    <Compile Include="Migrations\20210515125459_SeedDataAdded.cs" />
-    <Compile Include="Migrations\20210515125459_SeedDataAdded.Designer.cs" />
+    <Compile Include="Migrations\20210517164003_InitialMigration.cs" />
+    <Compile Include="Migrations\20210517164003_InitialMigration.Designer.cs" />
+    <Compile Include="Migrations\20210517164525_SeedDataAdded.cs" />
+    <Compile Include="Migrations\20210517164525_SeedDataAdded.Designer.cs" />
+    <Compile Include="Migrations\20210517171136_NotesAddedOnPie.cs" />
+    <Compile Include="Migrations\20210517171136_NotesAddedOnPie.Designer.cs" />
+    <Compile Include="Migrations\20210517215011_ShoppingCardAdded.cs" />
+    <Compile Include="Migrations\20210517215011_ShoppingCardAdded.Designer.cs" />
     <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
   </ItemGroup>
 
