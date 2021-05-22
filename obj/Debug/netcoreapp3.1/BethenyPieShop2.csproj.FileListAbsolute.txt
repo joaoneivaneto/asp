@@ -65,4 +65,6 @@ C:\Users\joaon\source\repos\BethenyPieShop2\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\joaon\source\repos\BethenyPieShop2\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCart\Index.cshtml.g.cs
 C:\Users\joaon\source\repos\BethenyPieShop2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
 C:\Users\joaon\source\repos\BethenyPieShop2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
-C:\Users\joaon\source\repos\BethenyPieShop2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Contact\Index.cshtml.g.cs
+C:\Users\joaon\source\repos\BethenyPieShop2\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\joaon\source\repos\BethenyPieShop2\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
+C:\Users\joaon\source\repos\BethenyPieShop2\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckoutComplete.cshtml.g.cs

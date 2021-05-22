@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BethenyPieShop2.TagHelpers
 {
-    public class EmailTagHelpers : TagHelper
+    public class EmailTagHelper : TagHelper
     {
         public string Address { get; set; }
         public string Content { get; set; }

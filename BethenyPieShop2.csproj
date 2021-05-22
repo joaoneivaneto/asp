@@ -32,6 +32,8 @@
     <Compile Include="Migrations\20210517171136_NotesAddedOnPie.Designer.cs" />
     <Compile Include="Migrations\20210517215011_ShoppingCardAdded.cs" />
     <Compile Include="Migrations\20210517215011_ShoppingCardAdded.Designer.cs" />
+    <Compile Include="Migrations\20210522121511_AddedOrder.cs" />
+    <Compile Include="Migrations\20210522121511_AddedOrder.Designer.cs" />
     <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
   </ItemGroup>
 
