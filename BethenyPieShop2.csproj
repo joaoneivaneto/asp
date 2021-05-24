@@ -5,12 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\**" />
     <Compile Remove="Migrations\**" />
     <Compile Remove="Views\NovaPasta1\**" />
+    <Content Remove="Data\**" />
     <Content Remove="Migrations\**" />
     <Content Remove="Views\NovaPasta1\**" />
+    <EmbeddedResource Remove="Data\**" />
     <EmbeddedResource Remove="Migrations\**" />
     <EmbeddedResource Remove="Views\NovaPasta1\**" />
+    <None Remove="Data\**" />
     <None Remove="Migrations\**" />
     <None Remove="Views\NovaPasta1\**" />
   </ItemGroup>
@@ -34,15 +38,27 @@
     <Compile Include="Migrations\20210517215011_ShoppingCardAdded.Designer.cs" />
     <Compile Include="Migrations\20210522121511_AddedOrder.cs" />
     <Compile Include="Migrations\20210522121511_AddedOrder.Designer.cs" />
+    <Compile Include="Migrations\20210522170328_IdentityAdded.cs" />
+    <Compile Include="Migrations\20210522170328_IdentityAdded.Designer.cs" />
     <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.15">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\bootstrap\dist\js\" />
   </ItemGroup>
 
 </Project>
